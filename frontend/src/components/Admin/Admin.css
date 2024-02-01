@@ -1,0 +1,149 @@
+.admCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 92vh;
+  padding: 0;
+  margin: 0;
+}
+
+.admLogin {
+  box-shadow: 0 1px 8px 2px rgb(184, 179, 179);
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  width: 20em;
+}
+
+.admForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .admLogin {
+    position: absolute;
+    top: 40%;
+  }
+}
+
+.admForm > form {
+  width: 90%;
+}
+
+.admForm > form > * {
+  margin-top: 1.3em;
+}
+
+.regCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
+
+.regDetails > * {
+  margin-top: 10px;
+  font-size: 1.4em;
+}
+
+.regDetails > h3 {
+  margin-top: 0;
+}
+
+.highLight {
+  font: bold;
+}
+
+/* All Registrations */
+.allreg-head {
+  display: flex;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+}
+
+.download-reg {
+  margin-left: auto;
+  margin-right: 3.6%;
+  margin-top: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+  .download-reg {
+    margin-top: 3.5%;
+  }
+}
+
+.reg-main-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.reg-main-head > h3 {
+  margin-left: 0.5em;
+}
+
+.filter-reg {
+  height: 4%;
+  min-width: 8%;
+  position: absolute;
+  right: 4%;
+}
+
+@media only screen and (max-width: 768px) {
+  .allreg-head {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .allreg-head > div > h1 {
+    padding-left: 16px;
+  }
+
+  .filter-reg {
+    min-width: 25%;
+  }
+}
+
+.details-card {
+  padding-top: 0;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  box-shadow: 0 1px 8px 2px rgb(184, 179, 179);
+  /* text-align: center; */
+  overflow: hidden;
+  position: relative;
+  width: 21em;
+  height: 20em;
+  border-radius: 10px;
+}
+
+.details-head {
+  padding: 15px 0;
+}
+
+.details-head > h2 {
+  color: purple;
+}
+
+.details-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details > * {
+  margin-top: 12px;
+  font-size: 1.2em;
+}
